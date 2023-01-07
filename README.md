@@ -17,3 +17,7 @@ Will create symbolic links for each dotfile present in this repository.
 docker build -t dot-image .
 docker run --rm -it dot-image
 ```
+
+## Acknowledgments
+
+https://github.com/mathiasbynens/dotfiles
