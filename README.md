@@ -11,4 +11,9 @@ My personal dotfiles
 Will create symbolic links for each dotfile present in this repository.
 
 
-## Tr
+## Try it out
+
+```bash
+docker build -t dot-image .
+docker run --rm -it dot-image
+```
