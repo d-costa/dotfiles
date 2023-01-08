@@ -41,6 +41,12 @@ function yes_or_no {
 
 OVERWRITE=false
 
+# If not interactive, overwrite
+case $- in
+    *i*) ;;
+      *) OVERWRITE=true;;
+esac
+
 while [ "$1" != "" ]; do
     case $1 in
     -f | --overwrite | --force)
