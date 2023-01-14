@@ -2,6 +2,10 @@
 
 ![shell screenshot](assets/screenshot.png)
 
+## Preview
+
+Create a [Codespace](https://docs.github.com/en/codespaces/overview) and the dotfiles will be installed automatically.
+
 ## Usage
 
 ```bash
