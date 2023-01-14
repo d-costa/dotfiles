@@ -4,7 +4,7 @@
 
 ## Preview
 
-Create a [Codespace](https://docs.github.com/en/codespaces/overview) and the dotfiles will be installed automatically.
+Create a [Codespace](https://docs.github.com/en/codespaces) and the dotfiles will be installed automatically.
 
 ## Usage
 
