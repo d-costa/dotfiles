@@ -2,6 +2,8 @@
 
 My personal dotfiles
 
+![shell screenshot](assets/screenshot.png)
+
 ## Usage
 
 ```bash
