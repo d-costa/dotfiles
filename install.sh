@@ -9,6 +9,8 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 redbold="${R}${bold}"
 c="${W}${normal}"
+
+# Files that start with .[a-zA-Z]* that we should not link:
 SKIP_FILES=".git .gitignore"
 
 function usage() {
@@ -42,10 +44,10 @@ function yes_or_no {
 OVERWRITE=false
 
 # If not interactive, overwrite
-case $- in
-    *i*) ;;
-      *) OVERWRITE=true;;
-esac
+# case $- in
+#     *i*) ;;
+#       *) OVERWRITE=true;;
+# esac
 
 while [ "$1" != "" ]; do
     case $1 in

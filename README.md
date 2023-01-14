@@ -10,7 +10,7 @@ My personal dotfiles
 ./install.sh
 ```
 
-Will create symbolic links for each dotfile present in this repository.
+Will create symbolic links for each dotfile present in this repository to your $HOME.
 
 
 ## Try it out
